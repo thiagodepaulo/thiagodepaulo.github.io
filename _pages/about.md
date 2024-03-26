@@ -13,4 +13,4 @@ Currently, I'm Adjunct Professor in the Department of Computer Science (CIC) at 
 [CNPq Currículo Lattes](http://lattes.cnpq.br/1193412523364471)
 
 
-![UnB](images/UnB.png)
+![UnB](images/as_comp_cor.gif)
