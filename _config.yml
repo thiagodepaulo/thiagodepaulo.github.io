@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "pt-BR"
-title                    : "prof. Thiago de Paulo Faleiros"
+title                    : "prof. Thiago"
 title_separator          : "-"
 name                     : &name "Thiago de Paulo Faleiros"
 description              : &description "PhD in Artificial Intelligence. Professor in the Department of Computer Science at the University of Brasília"
@@ -22,27 +22,27 @@ repository               : "thiagodepaulo/thiagodepaulo.github.io"
 author:
   # Biographic information
   avatar           : "thiago.png"
-  name             : "Your Sidebar Name"
+  name             : "Thiago de Paulo Faleiros"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
-  uri              : # URL
-  email            : "none@example.org" 
+  bio              : "PhD in Artificial Intelligence. Professor in the Department of Computer Science at the University of Brasília"
+  location         : "Brazil"
+  employer         : "University of Brasília"
+  uri              : "https://unb.br/"
+  email            : "thiagodepaulo@unb.br" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=Fh9KDgcAAAAJ"
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  orcid            : "http://orcid.org/0000-0001-5275-8356"
+  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "thiagodepaulo"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -69,7 +69,7 @@ author:
   weibo            : # Username
   wikipedia        : # Username
   xing             : # Username
-  youtube          : # Username
+  youtube          : "@adestradordemaquinas3115"
   zhihu            : # URL
 
 
