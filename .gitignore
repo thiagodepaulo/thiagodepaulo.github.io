@@ -7,3 +7,11 @@ Gemfile.lock
 # Ingore files created by npm
 node_modules
 package-lock.json
+
+# Lattes CV export (contains personal data)
+1193412523364471.xml
+CV_*.zip
+
+# Local Ruby gems (bundle install --path vendor/bundle)
+.bundle/
+vendor/

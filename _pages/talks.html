@@ -11,6 +11,17 @@ author_profile: true
 
 {% endif %}
 
+<h2>Video Lectures</h2>
+
+<p>Playlists from my YouTube channel, <a href="https://www.youtube.com/@adestradordemaquinas3115/playlists">Adestrador de Máquinas</a> (in Portuguese).</p>
+
+{% assign playlists = "PLKgKvshGQ0jF8Hxh3qfYbtRcd8OdLoQvr|Aprendizado de Máquina|6 videos;PLKgKvshGQ0jGJ17K5Lsdrq83Tft4oN8vg|Fundamentos Teóricos da Computação|12 lessons;PLKgKvshGQ0jE7N1I1DCyzR4UUrCkkD4LT|Teoria da Computação|21 videos;PLKgKvshGQ0jFLzl6dSlMHdkiurCQM_QkS|KnEDLe|11 videos" | split: ";" %}
+{% for item in playlists %}
+  {% assign p = item | split: "|" %}
+  <h3><a href="https://www.youtube.com/playlist?list={{ p[0] }}">{{ p[1] }}</a> <small>({{ p[2] }})</small></h3>
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list={{ p[0] }}" title="{{ p[1] }}" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% endfor %}
+
 {% for post in site.talks reversed %}
   {% include archive-single-talk.html %}
 {% endfor %}

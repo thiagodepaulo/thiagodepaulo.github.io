@@ -9,56 +9,61 @@ redirect_from:
 
 {% include base_path %}
 
+Full CV (in Portuguese): [CNPq Currículo Lattes](http://lattes.cnpq.br/1193412523364471)
+
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Postdoctoral research, University of Maryland, USA, 2025–2026
+  * Funding: CNPq
+* Ph.D. in Computer Science, University of São Paulo (USP), 2016
+  * Thesis: *Propagação em grafos bipartidos para extração de tópicos em fluxo de documentos textuais*
+  * Advisor: Alneu de Andrade Lopes
+  * Sandwich period at the University of Maryland, USA, 2013–2014
+  * Funding: FAPESP
+* M.S. in Computer Science, University of Campinas (Unicamp), 2010
+  * Dissertation: *Algoritmos para o Problema de Particionamento*
+  * Advisor: Eduardo Cândido Xavier
+  * Funding: FAPESP
+* B.S. in Computer Science, Federal University of Goiás (UFG), 2007
+  * Final project: *Abordagem Imunológica para Elaboração Automática de Quadros Horários*
+  * Advisor: Alexsandro Santos Soares
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* 2017–present: Adjunct Professor
+  * Department of Computer Science (CIC), University of Brasília (UnB)
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 2016–2017: Data Scientist (research fellowship)
+  * Itera Inovação e Desenvolvimento Tecnológico
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
+* 2010–2012: Professor
+  * Federal Institute of Education, Science and Technology of Goiás (IFG)
+
+* 2009: Teaching Assistant (Programa de Estágio Docente)
+  * Institute of Computing, University of Campinas (Unicamp)
+  * Course: MC102 – Algorithms and Computer Programming
+
+* 2008: Researcher / Systems Analyst (FAPESP technical training fellowship, TT-III)
+  * Innolution – Sistemas de Informática Ltda.
+  * Project: FAPESP PIPE LinkDigger
+
+
+Research interests
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Natural language processing and text mining
+* Probabilistic topic models
+* Graph-based machine learning
+
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
+See the [Publications]({{ base_path }}/publications/) page for the full list of journal articles, book chapters, conference papers, and submitted papers.
+
+Technical reports and software
+------
+* *Modelos probabilísticos de tópicos: desvendando o Latent Dirichlet Allocation*. Technical report, University of São Paulo, São Carlos, 2016.
+
 Teaching
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+Undergraduate and graduate courses at the University of Brasília since 2017: see the [Teaching]({{ base_path }}/teaching/) page.
+
